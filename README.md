@@ -1,4 +1,4 @@
-# <div align="center"><img src="./newlogo.png" alt="Infratic logo" width="1800" /><br/>Infratic</div>
+# <div align="center"><img src="./serverpilot-studio/infratic.png" alt="Infratic logo" width="420" /><br/>Infratic</div>
 
 <div align="center">
   Desktop infrastructure control for modern Linux operations.
