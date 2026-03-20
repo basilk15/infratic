@@ -51,7 +51,7 @@ Managing servers often means hopping between SSH sessions, dashboards, logs, and
 infratic/
 ├── README.md
 ├── .gitignore
-└── serverpilot-studio/
+└── infratic/
     ├── src/
     ├── electron/
     ├── test/
@@ -59,7 +59,7 @@ infratic/
     └── infratic.png
 ```
 
-The main application lives in `serverpilot-studio/`.
+The main application lives in `infratic/`.
 
 ## Getting Started
 
@@ -72,7 +72,7 @@ The main application lives in `serverpilot-studio/`.
 ### Install
 
 ```bash
-cd serverpilot-studio
+cd infratic
 npm install
 ```
 
@@ -131,7 +131,7 @@ Jump directly into service logs or open the embedded terminal when you need deep
 ## Repository Notes
 
 - Root folder: repository-level documentation and GitHub-facing metadata
-- App folder: production code in `serverpilot-studio/`
+- App folder: production code in `infratic/`
 - Generated output such as `dist/`, `dist-electron/`, `dist-builder/`, and `node_modules/` should stay untracked
 
 ## Publishing To GitHub

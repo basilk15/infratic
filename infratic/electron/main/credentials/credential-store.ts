@@ -15,7 +15,7 @@ type KeytarModule = {
 };
 
 export class CredentialStore extends EventEmitter {
-  private readonly serviceName = 'serverpilot-studio';
+  private readonly serviceName = 'infratic';
   private readonly vaultPath: string;
   private keytar: KeytarModule | null = null;
   private keytarLoadFailed = false;

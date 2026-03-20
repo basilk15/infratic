@@ -123,7 +123,7 @@ export class DatabaseStore {
   private readonly db: Database.Database;
 
   constructor() {
-    const dbPath = join(app.getPath('userData'), 'serverpilot-studio.db');
+    const dbPath = join(app.getPath('userData'), 'infratic.db');
     mkdirSync(dirname(dbPath), { recursive: true });
     this.db = new Database(dbPath);
     this.db.pragma('journal_mode = WAL');

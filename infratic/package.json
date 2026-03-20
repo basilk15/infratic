@@ -1,5 +1,5 @@
 {
-  "name": "serverpilot-studio",
+  "name": "infratic",
   "version": "0.1.0",
   "private": true,
   "description": "Electron-based desktop app for SSH server management",
