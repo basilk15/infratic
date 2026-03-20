@@ -1,0 +1,53 @@
+Mar 19 12:11:15 basil-Inspiron-15-3511 systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+Mar 19 12:11:16 basil-Inspiron-15-3511 wpa_supplicant[1142]: Successfully initialized wpa_supplicant
+Mar 19 12:11:16 basil-Inspiron-15-3511 systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+Mar 19 12:11:17 basil-Inspiron-15-3511 wpa_supplicant[1142]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Mar 19 12:11:18 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Mar 19 12:11:21 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: SME: Trying to authenticate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 12:11:21 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Trying to associate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 12:11:21 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Associated with 84:ad:58:cd:67:d4
+Mar 19 12:11:21 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Mar 19 12:11:21 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=CN
+Mar 19 12:11:22 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Key negotiation completed with 84:ad:58:cd:67:d4 [PTK=CCMP GTK=TKIP]
+Mar 19 12:11:22 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 84:ad:58:cd:67:d4 completed [id=0 id_str=]
+Mar 19 12:11:22 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-40 noise=9999 txrate=65000
+Mar 19 12:50:52 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Group rekeying completed with 84:ad:58:cd:67:d4 [GTK=TKIP]
+Mar 19 13:28:24 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-36 noise=9999 txrate=65000
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DISCONNECTED bssid=84:ad:58:cd:67:d4 reason=3 locally_generated=1
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 13:39:47 basil-Inspiron-15-3511 wpa_supplicant[1142]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+Mar 19 15:35:30 basil-Inspiron-15-3511 wpa_supplicant[1142]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Mar 19 15:35:32 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Mar 19 15:35:35 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: SME: Trying to authenticate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 15:35:35 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Trying to associate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 15:35:35 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Associated with 84:ad:58:cd:67:d4
+Mar 19 15:35:35 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Mar 19 15:35:35 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=CN
+Mar 19 15:35:36 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Key negotiation completed with 84:ad:58:cd:67:d4 [PTK=CCMP GTK=TKIP]
+Mar 19 15:35:36 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 84:ad:58:cd:67:d4 completed [id=0 id_str=]
+Mar 19 15:35:36 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-40 noise=9999 txrate=65000
+Mar 19 15:50:54 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Group rekeying completed with 84:ad:58:cd:67:d4 [GTK=TKIP]
+Mar 19 16:50:55 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Group rekeying completed with 84:ad:58:cd:67:d4 [GTK=TKIP]
+Mar 19 17:00:39 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-32 noise=9999 txrate=52000
+Mar 19 17:50:56 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Group rekeying completed with 84:ad:58:cd:67:d4 [GTK=TKIP]
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DISCONNECTED bssid=84:ad:58:cd:67:d4 reason=3 locally_generated=1
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+Mar 19 18:37:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+Mar 19 19:31:34 basil-Inspiron-15-3511 wpa_supplicant[1142]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Mar 19 19:31:34 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: SME: Trying to authenticate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Trying to associate with 84:ad:58:cd:67:d4 (SSID='3/F platinum fiberish' freq=2467 MHz)
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: Associated with 84:ad:58:cd:67:d4
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=CN
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: RRM: Ignoring radio measurement request: Not associated
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: WPA: Key negotiation completed with 84:ad:58:cd:67:d4 [PTK=CCMP GTK=TKIP]
+Mar 19 19:31:38 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 84:ad:58:cd:67:d4 completed [id=0 id_str=]
+Mar 19 19:31:39 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-46 noise=9999 txrate=121500
+Mar 19 19:41:46 basil-Inspiron-15-3511 wpa_supplicant[1142]: wlp1s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-40 noise=9999 txrate=52000

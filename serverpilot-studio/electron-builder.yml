@@ -1,0 +1,36 @@
+appId: com.serverpilot.studio
+productName: ServerPilot Studio
+directories:
+  output: dist-builder
+files:
+  - dist/**
+  - dist-electron/**
+  - package.json
+mac:
+  target:
+    - target: dmg
+      arch:
+        - universal
+    - target: zip
+      arch:
+        - universal
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: deb
+      arch:
+        - x64
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: ${productName}-Setup-${version}-${arch}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+npmRebuild: true
+buildDependenciesFromSource: true
+nativeRebuilder: sequential

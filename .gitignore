@@ -1,0 +1,12 @@
+serverpilot-studio/node_modules/
+serverpilot-studio/dist/
+serverpilot-studio/dist-electron/
+serverpilot-studio/dist-builder/
+serverpilot-studio/.electron-vite/
+serverpilot-studio/*.log
+serverpilot-studio/npm-debug.log*
+serverpilot-studio/yarn-debug.log*
+serverpilot-studio/yarn-error.log*
+serverpilot-studio/pnpm-debug.log*
+serverpilot-studio/.DS_Store
+serverpilot-studio/coverage/
