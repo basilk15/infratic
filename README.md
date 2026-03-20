@@ -1,4 +1,4 @@
-# <div align="center"><img src="./serverpilot-studio/infratic.png" alt="Infratic logo" width="180" /><br/>Infratic ServerPilot Studio</div>
+# <div align="center"><img src="./serverpilot-studio/infratic.png" alt="Infratic logo" width="180" /><br/>Infratic</div>
 
 <div align="center">
   Desktop infrastructure control for modern Linux operations.
@@ -6,11 +6,11 @@
 
 <br />
 
-Infratic ServerPilot Studio is an Electron-powered desktop application for teams that want a fast, visual way to monitor and operate Linux servers over SSH. It brings server visibility, service discovery, health checks, deploy actions, logs, metrics, and an embedded terminal into a single command-center experience.
+Infratic is an Electron-powered desktop application for teams that want a fast, visual way to monitor and operate Linux servers over SSH. It brings server visibility, service discovery, health checks, deploy actions, logs, metrics, and an embedded terminal into a single command-center experience.
 
 ## Why This Project Exists
 
-Managing servers often means hopping between SSH sessions, dashboards, logs, and deployment tools. ServerPilot Studio reduces that context switching by giving operators a focused desktop workspace where infrastructure state, service controls, and response workflows live together.
+Managing servers often means hopping between SSH sessions, dashboards, logs, and deployment tools. Infratic reduces that context switching by giving operators a focused desktop workspace where infrastructure state, service controls, and response workflows live together.
 
 ## What You Get
 
@@ -48,7 +48,7 @@ Managing servers often means hopping between SSH sessions, dashboards, logs, and
 ## Project Structure
 
 ```text
-ServerPilot/
+infratic/
 ├── README.md
 ├── .gitignore
 └── serverpilot-studio/
